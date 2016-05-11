@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="riddles" id="riddles_id">
+        <item name="riddle1">Who founded the la Liga Filipina?</item>
+	    <item name="riddle2">It is the name given to us by the Chinese during pre-colonial times</item>
+	    <item name="riddle3">It is the sequence of words that has been preserved for transmission of some form.</item>
+	
+	    <item name="riddle4">In what year did Magellan discovered the Philippines?</item>
+	    <item name="riddle5">Which nation discovered the Pacific Ocean?</item>
+	    <item name="riddle6">What do you call the mixture of blood and culture</item>
+
+		<item name="riddle7">What secret organization did Jose Rizal partake into after he renounced his Catholic faith?</item>
+		<item name="riddle8">What do you call society subsystems that are organized to meet the needs of a man?</item>
+		<item name="riddle9">What do you call the study of language?</item>
+
+	    <item name="riddle10">Where was Andres Bonifacio killed?</item>
+	    <item name="riddle11">These people belong to a brown race, has a medium height, slender bodies, straight black hair, dark brown eyes, flat noses. What do you call this race?</item>
+	    <item name="riddle12">An ethnic race in the Philippines wherein they consist of little black people, 5ft, black skin, dark kinky hair, round black eyes, and flat noses</item>
+
+	    <item name="riddle13">These are statements that limit the behavior of human.</item>
+	    <item name="riddle14">The name of the country \'Philippines\' is based on whose name?</item>
+	
+	    <item name="riddle15">It is the study of literature during ancient times. What is it?</item>
+	    <item name="riddle16">It is the systematically collected information of the past. What is it?</item>
+	    <item name="riddle17">What is the most romantic name given to the Philippines?</item>
+
+    </string-array>
+    <string-array name="answers" id="answers_id">
+		<item name="answer1">Jose Rizal</item>
+	    <item name="answer2">Ma-yi</item>
+	    <item name="answer3">Literature</item>
+	
+	    <item name="answer4">1521</item>
+	    <item name="answer5">Spain</item>
+	    <item name="answer6">Cultural Heritage</item>
+		
+		<item name="answer7">Freemasonry</item>
+		<item name="answer8">Institution</item>
+		<item name="answer9">Linguistics</item>
+
+	    <item name="answer10">Mt. Buntis</item>
+	    <item name="answer11">Malay</item>
+	    <item name="answer12">Negrito</item>
+	    <item name="answer13">Laws</item>
+	    <item name="answer14">King Philip II of Spain</item>
+
+	    <item name="answer15">Classics</item>
+	    <item name="answer16">History</item>
+	    <item name="answer17">Pearl of the Orient</item>
+    </string-array>
+</resources>

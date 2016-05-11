@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/chkBoxMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:text="Music" />
+
+    <CheckBox
+        android:id="@+id/chkBoxSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/chkBoxMusic"
+        android:layout_alignBottom="@+id/chkBoxMusic"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/chkBoxMusic"
+        android:text="Sound Effects" />
+
+    <CheckBox
+        android:id="@+id/chkBoxHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/chkBoxSound"
+        android:layout_alignBottom="@+id/chkBoxSound"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/chkBoxSound"
+        android:text="Hint" />
+
+</RelativeLayout>

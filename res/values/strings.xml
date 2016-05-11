@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Historya</string>
+    <string name="action_settings">Main Menu</string>
+    <string name="about">About This Game</string>
+    <string name="about_content">
+        Historya is a 2D Educational \nGame
+        with the aim to \nprovide questions related \nto
+        history to test the \nplayer\'s knowledge on \nthe said matter.
+	</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="how_to_play_content">
+        Use the digital screen \ncontrol
+        to navigate around \nthe area.
+        Use the sword to \nslash
+        through your enemies.
+	</string>
+	<string name="secret_code">What is the secret code used for this ceremonial gathering?</string>
+	<string name="game">Historya</string>
+	<string name="help">Help</string>
+    <string name="game_content">
+		One day while strolling on an \nenchanted
+		forest, Alzack saw \na portal. Curious
+		he went near \nit and was immediately pulled \nin.
+		Upon waking up he found \nhimself in an
+		old uncivilized \nplace. Upon asking a local, 
+		he \nfound out he\'s now in 1850s \nPhilippine era.
+		He must find \nthe mage who opened the \nportal so
+		he could go back to \nhis present timeline...
+	</string>
+	<string name="highscore_text">HighScore</string>
+	<string name="username">Username</string>
+	<string name="score">Score</string>
+	<string name="game_over">Game Over</string>
+	<string name="game_over_content"> Alzack got killed. \nSorry, you lost. Thank \nyou for playing...</string>
+	<string name="game_won">Game Won</string>
+	<string name="game_won_content">Congratulations! You just \nfinished Historya 2D \nEducational \n
+	    Game! Thank \nyou for playing...</string>
+</resources>

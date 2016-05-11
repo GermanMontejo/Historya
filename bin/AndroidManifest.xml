@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thesis.historya"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scroll"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".StartGameActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.thesis.historya.level1.Barrio1Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity 
+            android:name="com.thesis.historya.level1.Barrio1Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level1.Barrio1Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+		<activity 
+            android:name="com.thesis.historya.level2.Barrio2Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level2.Barrio2Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level2.Barrio2Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level2.Barrio2Terrain4Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level2.Barrio2Terrain5Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level3.Barrio3Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level3.Barrio3Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level3.Barrio3Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level4.Barrio4Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level4.Barrio4Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level4.Barrio4Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level5.Barrio5Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level5.Barrio5Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level5.Barrio5Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level5.Barrio5Terrain4Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level6.Barrio6Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level6.Barrio6Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level6.Barrio6Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level7.Barrio7Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level7.Barrio7Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level7.Barrio7Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level8.Barrio8Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level8.Barrio8Terrain2Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level8.Barrio8Terrain3Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level8.Barrio8Terrain4Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity 
+            android:name="com.thesis.historya.level9.Barrio9Terrain1Activity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" />
+		<activity
+            android:name=".About"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GameStory"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Highscore"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GameOver"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GameWon"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

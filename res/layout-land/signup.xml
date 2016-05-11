@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_color" >
+
+    <EditText
+        android:id="@+id/etUserNameSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvUserNameSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserNameSignup"
+        android:layout_centerHorizontal="true"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/login_font_color" />
+
+    <EditText
+        android:id="@+id/etPasswordSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUserNameSignup"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tvPasswordSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPasswordSignup"
+        android:layout_centerHorizontal="true"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/login_font_color" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUserNameSignup"
+        android:layout_below="@+id/tvPasswordSignup"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="27dp"
+        android:text="Signup" />
+
+    <Button
+        android:id="@+id/btnClear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSignup"
+        android:layout_alignRight="@+id/etUserNameSignup"
+        android:layout_marginRight="30dp"
+        android:text="Clear" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grass">#82a12a</color>
+    <color name="ground">#e1ba72</color>
+    <color name="login_background_color">#ffffff</color>
+    <color name="login_font_color">#020202</color>
+</resources>
